@@ -1,0 +1,122 @@
+
+/****** Object:  Table [dbo].[ICVoucherTpl]    Script Date: 03/25/2019 10:32:05 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[fsICVoucherTpl](
+	[FInterID] [int] NOT NULL,
+	[FName] [nvarchar](200) NOT NULL,
+	[FDate] [datetime] NULL,
+	[FTplType] [int] NOT NULL,
+	[FBillNo] [varchar](30) NOT NULL,
+	[FGroupID] [int] NOT NULL,
+	[FCountPrice] [smallint] NOT NULL,
+	[FIsSystem] [smallint] NOT NULL,
+	[FIsDefault] [smallint] NOT NULL,
+	[FBillerID] [int] NOT NULL,
+	[FSubSysID] [int] NOT NULL,
+ CONSTRAINT [pk_fsICVoucherTpl] PRIMARY KEY CLUSTERED 
+(
+	[FInterID] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+ALTER TABLE [dbo].[fsICVoucherTpl] ADD  CONSTRAINT [fsDF__ICVoucher__FName__1FC466A1]  DEFAULT ('') FOR [FName]
+GO
+
+ALTER TABLE [dbo].[fsICVoucherTpl] ADD  DEFAULT (0) FOR [FBillerID]
+GO
+
+ALTER TABLE [dbo].[fsICVoucherTpl] ADD  DEFAULT ((-1)) FOR [FSubSysID]
+GO
+
+
+/*******************************************************/
+
+
+
+/****** Object:  Table [dbo].[ICVoucherTplEntry]    Script Date: 03/25/2019 10:33:06 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[fsICVoucherTplEntry](
+	[FInterID] [int] NOT NULL,
+	[FEntryID] [int] NOT NULL,
+	[FNote] [nvarchar](800) NULL,
+	[FAccID] [int] NOT NULL,
+	[FAccProperty] [int] NULL,
+	[FAmountFrom] [int] NOT NULL,
+	[FAccDC] [smallint] NOT NULL,
+	[FReferenceAcct] [nvarchar](60) NOT NULL,
+ CONSTRAINT [pk_fsICVoucherTplEntry] PRIMARY KEY CLUSTERED 
+(
+	[FInterID] ASC,
+	[FEntryID] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+ALTER TABLE [dbo].[fsICVoucherTplEntry] ADD  CONSTRAINT [fsDF__ICVoucher__FRefe__22A0D34C]  DEFAULT ('') FOR [FReferenceAcct]
+GO
+
+
+
+
+/*******************************************************/
+
+
+
+
+
+
+
+/****** Object:  Table [dbo].[ICVoucherTAudit]    Script Date: 03/25/2019 10:44:37 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[fsICVoucherTAudit](
+	[FInterID] [int] NOT NULL,
+	[FEntryID] [int] NOT NULL,
+	[FItemClassID] [int] NOT NULL,
+	[FNumber] [varchar](20) NOT NULL,
+	[FName] [varchar](80) NOT NULL,
+	[FFieldName] [varchar](80) NOT NULL,
+	[FIsEntry] [bit] NOT NULL,
+ CONSTRAINT [pk_fsICVoucherTAudit] PRIMARY KEY CLUSTERED 
+(
+	[FInterID] ASC,
+	[FEntryID] ASC,
+	[FItemClassID] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+ALTER TABLE [dbo].[fsICVoucherTAudit] ADD  DEFAULT (0) FOR [FIsEntry]
+GO
+
+

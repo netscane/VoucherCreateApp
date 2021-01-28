@@ -1,0 +1,53 @@
+-- 1．增加主控台菜单项
+--查询得到要放置的位置
+
+delete from t_DataFlowDetailFunc where FSubFuncID=2204 and FDetailFuncID =6000186
+GO
+INSERT INTO t_DataFlowDetailFunc(FDetailFuncID,FFuncName,FFuncName_CHT,FFuncName_EN,FSubFuncID,FIndex,
+FClassName,FClassParam,FIsNormal,FHelpCode,FVisible,FAcctType,FFuncType,FEnable,
+FShowName,FShowName_CHT,FShowName_EN)
+VALUES( 6000186,'收入发票生成凭证','收入发票生成凭证','收入发票生成凭证',2204,4,'K3SaleIn.Application','Rpt6000186',0,'20057',1,'', -1,1,'','','')
+GO
+
+-- 2. 增加报表模版
+DELETE  From ICReport where FInterid=6000186
+GO
+INSERT INTO ICReport(FRptName,FProcedure,FTemplateID,FNote,Fsum,FRptType,FRptGrpID,FRptProperty,FRptStyle,
+FDetailRptName,FBillType,
+FInterID,FVis,FCountPriceType,FMergeCol,FObjectType,FObjectID,FRptName_CHT,FRptName_EN,
+FDetailRptName_CHT,FDetailRptName_EN) 
+VALUES ('收入发票生成凭证','K3RptVCBoot.Rpt6000186',6000186,'FNOTE','FSumSort',1,100,1,1,'','0',6000186,0,2,0,4100,6000186,'','<Not Matched>','','') 
+GO
+
+-- 3. 增加报表权限，在"权限分组1"下找到报表进行权限管理
+declare @objectID int, @rptName varchar(100)
+set @objectID=6000186
+set @rptName='发票凭证模板设置'
+
+delete from t_ObjectType where FObjectType=4100 and FObjectid=@objectID
+INSERT INTO t_ObjectType(FObjectType,FObjectID,FName,FDescription,FName_cht,FName_en,FDescription_cht,FDescription_en)
+VALUES (4100,@objectID,@rptName,'','','<Not Matched>','','')
+
+delete from t_ObjectAccessType where FObjectType=4100 and FObjectid=@objectID
+INSERT INTO t_ObjectAccessType(FObjectType,FObjectID,FIndex,FAccessMask,FAccessUse,FName,FDescription,FName_cht,FName_en, FDescription_cht,FDescription_En) 
+VALUES (4100,@objectID,0,0x40000,0,'查看权限','用户可读取该对象安全信息','查看許可權','View Authority','用戶可讀取該物件安全資訊','User can read security info. of user')
+
+INSERT INTO t_ObjectAccessType(FObjectType,FObjectID,FIndex,FAccessMask,FAccessUse,FName,FDescription,FName_cht,FName_en, FDescription_cht,FDescription_En) 
+VALUES (4100,@objectID,1,0x80000,0x40000,'修改权限','用户可修改该对象安全信息','修改許可權','Edit Auth','用戶可修改該物件安全資訊','User can edit security info.')
+
+INSERT INTO t_ObjectAccessType(FObjectType,FObjectID,FIndex,FAccessMask,FAccessUse,FName,FDescription,FName_cht,FName_en, FDescription_cht,FDescription_En) 
+VALUES (4100,@objectID,2,0x100000,0,'查看','可查看信息','查看','View','可查看信息','Can view information')
+
+INSERT INTO t_ObjectAccessType(FObjectType,FObjectID,FIndex,FAccessMask,FAccessUse,FName,FDescription,FName_cht,FName_en,FDescription_cht,FDescription_En) 
+VALUES (4100,@objectID,3,8192,1048576,'打印','可打印对象','列印','Print','可列印對象','Can print object')
+
+INSERT INTO t_ObjectAccessType(FObjectType,FObjectID,FIndex,FAccessMask,FAccessUse,FName,FDescription,FName_cht,FName_en, FDescription_cht,FDescription_En) 
+VALUES (4100,@objectID,4,16384,1048576,'引出','可引出数据','引出','Export','可引出數據','Can export data' )
+
+delete from t_ObjectAccess where FObjectType=4100 and FObjectid=@objectID
+INSERT INTO t_ObjectAccess(FGroupID,FObjectType,FObjectID,FIndex) 
+VALUES (2101, 4100, @objectID,12)
+
+--4.更新主控台菜单时间戳
+update t_DataFlowTimeStamp Set Fname=FName
+GO

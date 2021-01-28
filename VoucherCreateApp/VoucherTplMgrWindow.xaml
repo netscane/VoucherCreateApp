@@ -1,0 +1,77 @@
+﻿<dx:DXWindow x:Class="VoucherCreateApp.VoucherTplMgrWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+        xmlns:local="clr-namespace:VoucherCreateApp"
+        xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars"
+        xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" 
+        xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+        Title="凭证模板管理" Height="300" Width="300" WindowStartupLocation="CenterScreen" WindowState="Maximized" Icon="/VoucherCreateApp;component/Images/voucherApp.png">
+    <Window.Resources>
+        <local:RowNumberConverter x:Key="RowNumberConverter"/>
+        <DataTemplate x:Key="rowIndicatorContentTemplate">
+            <StackPanel VerticalAlignment="Center"
+                        HorizontalAlignment="Center">
+                <TextBlock Text="{Binding Path=RowHandle,Converter={StaticResource RowNumberConverter}}"
+                           TextAlignment="Center" VerticalAlignment="Center"/>
+            </StackPanel>
+        </DataTemplate>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <dxb:MainMenuControl Grid.Row="0">
+            <dxb:BarButtonItem Content="刷新" Name="btnRefresh" Glyph="{dx:DXImage Image=Refresh_32x32.png}" BarItemDisplayMode="ContentAndGlyph" GlyphAlignment="Top" ItemClick="btnRefresh_ItemClick" />
+            <dxb:BarButtonItem Content="过滤" Name="btnShowFilter" Glyph="{dx:DXImage Image=MasterFilter_32x32.png}" BarItemDisplayMode="ContentAndGlyph" GlyphAlignment="Top" ItemClick="btnShowFilter_ItemClick" />
+            <dxb:BarButtonItem Content="编辑" Name="btnEditVoucherTpl"  Glyph="{dx:DXImage Image=Edit_32x32.png}" BarItemDisplayMode="ContentAndGlyph" GlyphAlignment="Top" ItemClick="btnEditVoucherTpl_ItemClick" />
+            <dxb:BarButtonItem Content="新增" Name="btnAddVoucherTpl"  Glyph="{dx:DXImage Image=AddItem_32x32.png}" BarItemDisplayMode="ContentAndGlyph" GlyphAlignment="Top" ItemClick="btnAddVoucherTpl_ItemClick" />
+            <dxb:BarButtonItem Content="删除" Name="btnDeleteVoucherTpl"  Glyph="{dx:DXImage Image=Deletelist_32x32.png}" BarItemDisplayMode="ContentAndGlyph" GlyphAlignment="Top" ItemClick="btnDeleteVoucherTpl_ItemClick" />
+            <dxb:BarButtonItem Content="退出" Name="btnAppExit" Glyph="{dx:DXImage Image=Close_32x32.png}" BarItemDisplayMode="ContentAndGlyph" GlyphAlignment="Top" ItemClick="btnAppExit_ItemClick" />
+        </dxb:MainMenuControl>
+        <dxg:GridControl  Grid.Row="1" Name="gridControl1">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn FieldName="IsSelected"   VisibleIndex="0" AllowEditing="False" AllowSorting="False" AllowColumnFiltering="False" HorizontalHeaderContentAlignment="Center" AllowFocus="True">
+                    <dxg:GridColumn.HeaderTemplate>
+                        <DataTemplate>
+                            <CheckBox HorizontalAlignment="Center" Name="btnChkAll" VerticalAlignment="Center" Click="btnChkAll_Click"></CheckBox>
+                        </DataTemplate>
+                    </dxg:GridColumn.HeaderTemplate>
+                    <dxg:GridColumn.CellTemplate>
+                        <DataTemplate>
+                            <CheckBox IsChecked="{Binding Data.IsSelected}" HorizontalAlignment="Center" VerticalAlignment="Center"></CheckBox>
+                        </DataTemplate>
+                    </dxg:GridColumn.CellTemplate>
+                </dxg:GridColumn >
+
+                <dxg:GridColumn FieldName="BillNo" Header="模板编号">
+
+                </dxg:GridColumn>
+                <dxg:GridColumn FieldName="Name" Header="模板名称" >
+
+                </dxg:GridColumn>
+
+                <dxg:GridColumn FieldName="TransTypeName" Header="模板类型">
+
+                </dxg:GridColumn>
+                
+                <dxg:GridColumn FieldName="LastUpdateTime" Header="修改时间">
+
+                </dxg:GridColumn>
+                <dxg:GridColumn FieldName="BillerName" Header="制单人" >
+
+                </dxg:GridColumn>
+                <dxg:GridColumn FieldName="IsDefault" Header="是否默认">
+
+                </dxg:GridColumn>
+            </dxg:GridControl.Columns>
+                    <dxg:GridControl.View>
+                <dxg:TableView AllowPerPixelScrolling="True" Name="tableView1" ShowTotalSummary="False" ShowGroupPanel="False" 
+                               AllowCascadeUpdate="True"   
+                               AutoWidth="False" IndicatorWidth="40" FontSize="10" 
+                               RowIndicatorContentTemplate="{StaticResource rowIndicatorContentTemplate}"/>
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+    </Grid>
+</dx:DXWindow>

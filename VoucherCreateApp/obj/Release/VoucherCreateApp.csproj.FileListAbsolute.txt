@@ -1,0 +1,200 @@
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\MainWindow.baml
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\MainWindow.g.cs
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\App.g.cs
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherCreateApp_MarkupCompile.cache
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherCreateApp.g.resources
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp.exe.config
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp.exe
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp.pdb
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\DevExpress.Data.v15.2.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\DevExpress.Mvvm.v15.2.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\DevExpress.Printing.v15.2.Core.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\DevExpress.Xpf.Core.v15.2.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\DevExpress.Xpf.Grid.v15.2.Core.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\DevExpress.Xpf.Grid.v15.2.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\DevExpress.Mvvm.v15.2.xml
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\DevExpress.Xpf.Core.v15.2.xml
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\DevExpress.Data.v15.2.xml
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\DevExpress.Printing.v15.2.Core.xml
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\DevExpress.Xpf.Grid.v15.2.xml
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\DevExpress.Xpf.Grid.v15.2.Core.xml
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\de\DevExpress.Xpf.Core.v15.2.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\es\DevExpress.Xpf.Core.v15.2.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\ja\DevExpress.Xpf.Core.v15.2.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\ru\DevExpress.Xpf.Core.v15.2.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\de\DevExpress.Data.v15.2.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\es\DevExpress.Data.v15.2.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\ja\DevExpress.Data.v15.2.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\ru\DevExpress.Data.v15.2.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\de\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\es\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\ja\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\ru\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\de\DevExpress.Xpf.Grid.v15.2.Core.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\es\DevExpress.Xpf.Grid.v15.2.Core.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\ja\DevExpress.Xpf.Grid.v15.2.Core.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\ru\DevExpress.Xpf.Grid.v15.2.Core.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherCreateApp.Properties.Resources.resources
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherCreateApp.exe
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherCreateApp.pdb
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherCreateApp.csproj.ResolveComReference.cache
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\DevExpress.Images.v15.2.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\DevExpress.Xpf.Themes.DXStyle.v15.2.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\SetItemsWindow.g.cs
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherTplEditWindow.g.cs
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherTplMgrWindow.g.cs
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherCreateApp_MarkupCompile.lref
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\SetItemsWindow.baml
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherTplEditWindow.baml
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherTplMgrWindow.baml
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherCreateApp.csproj.GenerateResource.Cache
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\VoucherCreateApp.exe.config
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\VoucherCreateApp.exe
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\VoucherCreateApp.pdb
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Data.v15.2.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Images.v15.2.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Mvvm.v15.2.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Printing.v15.2.Core.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Xpf.Core.v15.2.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Xpf.Grid.v15.2.Core.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Xpf.Grid.v15.2.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Xpf.Themes.DXStyle.v15.2.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Mvvm.v15.2.xml
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Printing.v15.2.Core.xml
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Xpf.Core.v15.2.xml
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Data.v15.2.xml
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Xpf.Grid.v15.2.xml
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Xpf.Grid.v15.2.Core.xml
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\de\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\es\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\ja\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\ru\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\de\DevExpress.Xpf.Core.v15.2.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\es\DevExpress.Xpf.Core.v15.2.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\ja\DevExpress.Xpf.Core.v15.2.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\ru\DevExpress.Xpf.Core.v15.2.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\de\DevExpress.Data.v15.2.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\es\DevExpress.Data.v15.2.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\ja\DevExpress.Data.v15.2.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\ru\DevExpress.Data.v15.2.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\de\DevExpress.Xpf.Grid.v15.2.Core.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\es\DevExpress.Xpf.Grid.v15.2.Core.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\ja\DevExpress.Xpf.Grid.v15.2.Core.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\ru\DevExpress.Xpf.Grid.v15.2.Core.resources.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherCreateApp_Content.g.cs
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\K3RptVCBoot.dll
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\插件反注册.bat
+C:\Users\kb\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\插件注册.bat
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\VoucherCreateApp.exe.config
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherCreateApp.csproj.ResolveComReference.cache
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherCreateApp.exe
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherCreateApp.pdb
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\K3RptVCBoot.dll
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\插件反注册.bat
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\插件注册.bat
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\VoucherCreateApp.exe
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\VoucherCreateApp.pdb
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Data.v15.2.dll
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Images.v15.2.dll
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Mvvm.v15.2.dll
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Printing.v15.2.Core.dll
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Xpf.Core.v15.2.dll
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Xpf.Grid.v15.2.Core.dll
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Xpf.Grid.v15.2.dll
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Xpf.Themes.DXStyle.v15.2.dll
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Mvvm.v15.2.xml
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Printing.v15.2.Core.xml
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Xpf.Core.v15.2.xml
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Data.v15.2.xml
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Xpf.Grid.v15.2.xml
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Xpf.Grid.v15.2.Core.xml
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\de\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\es\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\ja\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\ru\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\de\DevExpress.Xpf.Core.v15.2.resources.dll
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\es\DevExpress.Xpf.Core.v15.2.resources.dll
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\ja\DevExpress.Xpf.Core.v15.2.resources.dll
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\ru\DevExpress.Xpf.Core.v15.2.resources.dll
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\de\DevExpress.Data.v15.2.resources.dll
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\es\DevExpress.Data.v15.2.resources.dll
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\ja\DevExpress.Data.v15.2.resources.dll
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\ru\DevExpress.Data.v15.2.resources.dll
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\de\DevExpress.Xpf.Grid.v15.2.Core.resources.dll
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\es\DevExpress.Xpf.Grid.v15.2.Core.resources.dll
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\ja\DevExpress.Xpf.Grid.v15.2.Core.resources.dll
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\ru\DevExpress.Xpf.Grid.v15.2.Core.resources.dll
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\obj\Release\MainWindow.g.cs
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\obj\Release\SetItemsWindow.g.cs
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherTplEditWindow.g.cs
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherTplMgrWindow.g.cs
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\obj\Release\App.g.cs
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherCreateApp_Content.g.cs
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherCreateApp_MarkupCompile.cache
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherCreateApp_MarkupCompile.lref
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\obj\Release\MainWindow.baml
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\obj\Release\SetItemsWindow.baml
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherTplEditWindow.baml
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherTplMgrWindow.baml
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherCreateApp.g.resources
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherCreateApp.Properties.Resources.resources
+C:\Users\kb\Desktop\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherCreateApp.csproj.GenerateResource.Cache
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\VoucherCreateApp.exe.config
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherCreateApp.csproj.ResolveComReference.cache
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherCreateApp.exe
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherCreateApp.pdb
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\K3RptVCBoot.dll
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\插件反注册.bat
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\插件注册.bat
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\VoucherCreateApp.exe
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\VoucherCreateApp.pdb
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Data.v15.2.dll
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Images.v15.2.dll
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Mvvm.v15.2.dll
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Printing.v15.2.Core.dll
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Xpf.Core.v15.2.dll
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Xpf.Grid.v15.2.Core.dll
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Xpf.Grid.v15.2.dll
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Xpf.Themes.DXStyle.v15.2.dll
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Mvvm.v15.2.xml
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Printing.v15.2.Core.xml
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Xpf.Core.v15.2.xml
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Data.v15.2.xml
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Xpf.Grid.v15.2.xml
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\DevExpress.Xpf.Grid.v15.2.Core.xml
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\de\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\es\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\ja\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\ru\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\de\DevExpress.Xpf.Core.v15.2.resources.dll
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\es\DevExpress.Xpf.Core.v15.2.resources.dll
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\ja\DevExpress.Xpf.Core.v15.2.resources.dll
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\ru\DevExpress.Xpf.Core.v15.2.resources.dll
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\de\DevExpress.Data.v15.2.resources.dll
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\es\DevExpress.Data.v15.2.resources.dll
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\ja\DevExpress.Data.v15.2.resources.dll
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\ru\DevExpress.Data.v15.2.resources.dll
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\de\DevExpress.Xpf.Grid.v15.2.Core.resources.dll
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\es\DevExpress.Xpf.Grid.v15.2.Core.resources.dll
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\ja\DevExpress.Xpf.Grid.v15.2.Core.resources.dll
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\bin\Release\VoucherCreateApp\ru\DevExpress.Xpf.Grid.v15.2.Core.resources.dll
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\ResolveAssemblyReference.cache
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\MainWindow.g.cs
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\SetItemsWindow.g.cs
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherTplEditWindow.g.cs
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherTplMgrWindow.g.cs
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\App.g.cs
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherCreateApp_Content.g.cs
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherCreateApp_MarkupCompile.cache
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherCreateApp_MarkupCompile.lref
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\MainWindow.baml
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\SetItemsWindow.baml
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherTplEditWindow.baml
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherTplMgrWindow.baml
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherCreateApp.g.resources
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\VoucherCreateApp.Properties.Resources.resources
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\GenerateResource.read.1.tlog
+C:\Users\wangfs\Documents\Visual Studio 2010\Projects\VoucherCreateApp\VoucherCreateApp\obj\Release\GenerateResource.write.1.tlog

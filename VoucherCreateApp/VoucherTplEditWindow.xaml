@@ -1,0 +1,196 @@
+﻿<dx:DXWindow x:Class="VoucherCreateApp.VoucherTplEditWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:VoucherCreateApp"
+        xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+        xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars"
+        xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" 
+        xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+        Title="编辑凭证模板" Height="400" Width="720" WindowStartupLocation="CenterScreen" Icon="/VoucherCreateApp;component/Images/voucherApp.png">
+    <Window.Resources>
+        <local:RowNumberConverter x:Key="RowNumberConverter"/>
+        <DataTemplate x:Key="rowIndicatorContentTemplate">
+            <StackPanel VerticalAlignment="Center"
+                        HorizontalAlignment="Center">
+                <TextBlock Text="{Binding Path=RowHandle,Converter={StaticResource RowNumberConverter}}"
+                           TextAlignment="Center" VerticalAlignment="Center"/>
+            </StackPanel>
+        </DataTemplate>
+        <Style TargetType="StackPanel">
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="Orientation" Value="Horizontal" />
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Margin" Value="10,0" />
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Margin" Value="10,0" />
+        </Style>
+        <Style TargetType="ComboBox">
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Margin" Value="10,0" />
+        </Style>
+        <Style TargetType="dxg:LookUpEdit">
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Margin" Value="10,0" />
+        </Style>
+        <Style TargetType="Grid">
+
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <dxb:MainMenuControl Grid.Row="0">
+            <dxb:BarButtonItem Content="保存" Name="btnSaveVoucherTpl"  Glyph="{dx:DXImage Image=Save_32x32.png}" BarItemDisplayMode="ContentAndGlyph" GlyphAlignment="Top" ItemClick="btnSaveVoucherTpl_ItemClick" />
+            <dxb:BarButtonItem Content="添加" Name="btnAddNewRow"  Glyph="{dx:DXImage Image=Add_32x32.png}" BarItemDisplayMode="ContentAndGlyph" GlyphAlignment="Top" ItemClick="btnAddNewRow_ItemClick" />
+            <dxb:BarButtonItem Content="删除" Name="btnRemoveRow"  Glyph="{dx:DXImage Image=Remove_32x32.png}" BarItemDisplayMode="ContentAndGlyph" GlyphAlignment="Top" ItemClick="btnRemoveRow_ItemClick" />
+            <dxb:BarButtonItem Content="退出" Name="btnAppExit" Glyph="{dx:DXImage Image=Close_32x32.png}" BarItemDisplayMode="ContentAndGlyph" GlyphAlignment="Top" ItemClick="btnAppExit_ItemClick" />
+        </dxb:MainMenuControl>
+        <Grid Grid.Row="1" Margin="10,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" >
+                <Label>模板编号</Label>
+                <TextBlock Name="txtVoucherTplNo">TPL0001</TextBlock>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center">
+                <Label>模板名称</Label>
+                <TextBox Width="150" Name="txtVoucherName">Tpl0001</TextBox>
+            </StackPanel>
+            <StackPanel Grid.Column="2">
+                <Label>凭证字</Label>
+                <dxe:ComboBoxEdit Name="cboVoucherGroup" Width="60" DisplayMember="Name" ValueMember="GroupID">
+                </dxe:ComboBoxEdit>
+            </StackPanel>
+        </Grid>
+        <dxg:GridControl Grid.Row="2" Name="gridControl1">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn FieldName="AccID" Header="科目" AllowAutoFilter="False" AllowColumnFiltering="False">
+                    <dxg:GridColumn.EditSettings>
+                        <dxg:LookUpEditSettings Name="lookUpAcct"
+                        DisplayMember="Name" 
+                        ValueMember="AccountID" 
+                        AutoComplete="True" 
+                        AutoPopulateColumns="False"
+                        IncrementalFiltering="True" 
+                        ImmediatePopup="True">
+                            <dxg:LookUpEditSettings.PopupContentTemplate>
+                                <ControlTemplate>
+                                    <dxg:GridControl Name="PART_GridControl">
+                                        <dxg:GridControl.Columns>
+                                            <dxg:GridColumn FieldName="Number" Header="科目代码"/>
+                                            <dxg:GridColumn FieldName="Name" Header="科目名称"/>
+                                        </dxg:GridControl.Columns>
+                                        <dxg:GridControl.View>
+                                            <dxg:TableView AutoWidth="True" ShowGroupPanel="False" ShowSearchPanelMode="Always"/>
+                                        </dxg:GridControl.View>
+                                    </dxg:GridControl>
+                                </ControlTemplate>
+                            </dxg:LookUpEditSettings.PopupContentTemplate>
+                        </dxg:LookUpEditSettings>
+                    </dxg:GridColumn.EditSettings>
+                </dxg:GridColumn>
+                <dxg:GridColumn FieldName="Direction" Header="借贷方向" AllowEditing="True" AllowColumnFiltering="False">
+                    <dxg:GridColumn.EditSettings>
+                        <dxe:ComboBoxEditSettings Name="cboDirection" DisplayMember="Name" ValueMember="DirectionID" >
+                            <dxe:ComboBoxEditSettings.StyleSettings>
+                                <dxe:ComboBoxStyleSettings />
+                            </dxe:ComboBoxEditSettings.StyleSettings>
+                        </dxe:ComboBoxEditSettings>
+                    </dxg:GridColumn.EditSettings>
+                </dxg:GridColumn>
+                <dxg:GridColumn FieldName="AmountFrom" Header="金额来源" AllowEditing="True" AllowColumnFiltering="False">
+                    <dxg:GridColumn.EditSettings  >
+                        <dxe:ComboBoxEditSettings Name="cboAmountFrom" DisplayMember="FieldName" ValueMember="InterID" IsTextEditable="False"
+                        AutoComplete="true">
+                            <dxe:ComboBoxEditSettings.StyleSettings >
+                                <dxe:ComboBoxStyleSettings />
+                            </dxe:ComboBoxEditSettings.StyleSettings>
+                        </dxe:ComboBoxEditSettings>
+                    </dxg:GridColumn.EditSettings>
+                </dxg:GridColumn>
+                <dxg:GridColumn FieldName="Note" Header="摘要"  AllowEditing="True" AllowColumnFiltering="False">
+                    <dxg:GridColumn.EditSettings >
+                        <dxe:TextEditSettings />
+                    </dxg:GridColumn.EditSettings>
+                </dxg:GridColumn>
+                <dxg:GridColumn Header="核算项目" FieldName="items" AllowColumnFiltering="False">
+                    <dxg:GridColumn.EditSettings>
+                        <dxe:ButtonEditSettings AllowDefaultButton="False" Name="itemsEdit">
+                            <dxe:ButtonEditSettings.Buttons>
+                                <dxe:ButtonInfo Click="ButtonInfo_Click" />
+                            </dxe:ButtonEditSettings.Buttons>
+                        </dxe:ButtonEditSettings>
+                    </dxg:GridColumn.EditSettings>
+                </dxg:GridColumn>
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView Name="tableView1" AllowPerPixelScrolling="True" ShowTotalSummary="False" ShowGroupPanel="False" 
+                               AllowCascadeUpdate="True"   
+                               NewItemRowPosition="Bottom" 
+                               AutoWidth="False" IndicatorWidth="40" FontSize="10"  AllowEditing="True"
+                               RowIndicatorContentTemplate="{StaticResource rowIndicatorContentTemplate}" InitNewRow="tableView1_InitNewRow" CellValueChanged="tableView1_CellValueChanged" />
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+        <Grid Grid.Row="3" Margin="10,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" >
+                <Label>时间</Label>
+                <TextBlock Name="txtDate">2019-03-26 12:36:56</TextBlock>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center">
+                <Label>制单人</Label>
+                <dxg:LookUpEdit Name="lookUpUser" 
+                        DisplayMember="Name" 
+                        ValueMember="UserID" 
+                        AutoPopulateColumns="False" 
+                        AutoComplete="True" 
+                        IncrementalFiltering="True" 
+                        ImmediatePopup="True" 
+                        IsPopupAutoWidth="False" 
+                        VerticalAlignment="Center" 
+                        Width="80">
+                    <dxg:LookUpEdit.PopupContentTemplate>
+                        <ControlTemplate>
+                            <dxg:GridControl Name="PART_GridControl">
+                                <dxg:GridControl.Columns>
+                                    <dxg:GridColumn FieldName="UserID" Header="用户ID"/>
+                                    <dxg:GridColumn FieldName="Name" Header="用户名"/>
+                                </dxg:GridControl.Columns>
+                                <dxg:GridControl.View>
+                                    <dxg:TableView AutoWidth="True" ShowGroupPanel="False" ShowSearchPanelMode="Always"/>
+                                </dxg:GridControl.View>
+                            </dxg:GridControl>
+                        </ControlTemplate>
+                    </dxg:LookUpEdit.PopupContentTemplate>
+                </dxg:LookUpEdit>
+            </StackPanel>
+            <StackPanel Grid.Column="2">
+                <Label>单据类型</Label>
+                <dxe:ComboBoxEdit Name="cboTransType" Width="100" DisplayMember="Name" ValueMember="ID">
+                </dxe:ComboBoxEdit>
+            </StackPanel>
+            <StackPanel Grid.Column="3">
+                <Label>默认模板</Label>
+                <dxe:ComboBoxEdit Name="cboDefault" Width="40" DisplayMember="Name" ValueMember="ID">
+                </dxe:ComboBoxEdit>
+            </StackPanel>
+        </Grid>
+        
+    </Grid>
+</dx:DXWindow>

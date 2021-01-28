@@ -1,0 +1,47 @@
+﻿<dx:DXWindow x:Class="VoucherCreateApp.SetItemsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:local="clr-namespace:VoucherCreateApp"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+        xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars"
+        xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" 
+        xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+        Title="核算项目设置" Height="360" Width="320" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Window.Resources>
+        <local:RowNumberConverter x:Key="RowNumberConverter"/>
+        <DataTemplate x:Key="rowIndicatorContentTemplate">
+            <StackPanel VerticalAlignment="Center"
+                        HorizontalAlignment="Center">
+                <TextBlock Text="{Binding Path=RowHandle,Converter={StaticResource RowNumberConverter}}"
+                           TextAlignment="Center" VerticalAlignment="Center"/>
+            </StackPanel>
+        </DataTemplate>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <dxg:GridControl Name="gridControl1" Grid.Row="1">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn FieldName="Number" Header="类别代码" AllowEditing="True">
+                </dxg:GridColumn>
+                <dxg:GridColumn FieldName="Name" Header="类别名称" AllowEditing="True">
+                </dxg:GridColumn>
+                <dxg:GridColumn FieldName="Field" Header="对应单据上项目" AllowEditing="True">
+                    <dxg:GridColumn.EditSettings>
+                        <dxe:ComboBoxEditSettings Name="cboBillField" DisplayMember="Name" ValueMember="Field" AutoComplete="True" AllowItemHighlighting="False">
+                            <dxe:ComboBoxEditSettings.StyleSettings>
+                                <dxe:ComboBoxStyleSettings />
+                            </dxe:ComboBoxEditSettings.StyleSettings>
+                        </dxe:ComboBoxEditSettings>
+                    </dxg:GridColumn.EditSettings>
+                </dxg:GridColumn>
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView AllowPerPixelScrolling="True" Name="tableView1" ShowTotalSummary="False" ShowGroupPanel="False" AutoWidth="True"
+                               RowIndicatorContentTemplate="{StaticResource rowIndicatorContentTemplate}" ValidateCell="tableView1_ValidateCell" />
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+    </Grid>
+</dx:DXWindow>
